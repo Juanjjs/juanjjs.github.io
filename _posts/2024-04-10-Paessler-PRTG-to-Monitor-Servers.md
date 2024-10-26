@@ -1,7 +1,9 @@
 ---
 layout: post
 author: Juan Camilo JS
-title: Using Paessler PRTG to Monitor Servers
+title: Paessler PRTG to Monitor Servers
+excerpt: "Configuration of the monitoring platform to obtain server health metrics."
+date: 2024-04-10
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
