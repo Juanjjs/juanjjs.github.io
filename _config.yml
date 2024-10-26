@@ -1,7 +1,7 @@
 title: Juan's Website
 iconURL: assets/default-icon.png
 gifURL: assets/icons.gif
-theme: jekyll-theme-leaf
+#theme: jekyll-theme-leaf
 
 # for a clean URL
 permalink: :slug
