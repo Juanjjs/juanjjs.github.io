@@ -51,7 +51,7 @@ layout: default
               <img src="{{ '/assets/aws-icon.png' | relative_url }}" alt="FaaS logo" style="width: 70px; height: auto;">  
               <!-- <img src="{{ '/assets/javascript-icon.png' | relative_url }}" alt="FaaS logo" style="width: 50px; height: auto;"> -->
             {%- elsif post.title contains "Paessler PRTG to Monitor Servers" -%}
-              <img src="{{ '/assets/prtg-icon.png' | relative_url }}" alt="FaaS logo" style="width: 85px; height: auto;">  
+              <img src="{{ '/assets/prtg-icon.jpg' | relative_url }}" alt="FaaS logo" style="width: 130px; height: auto;">  
               <!-- <img src="{{ '/assets/javascript-icon.png' | relative_url }}" alt="FaaS logo" style="width: 50px; height: auto;"> -->
             {%- elsif post.title contains "Docker Mailserver without Domain" -%}
               <img src="{{ '/assets/smtp-icon.png' | relative_url }}" alt="FaaS logo" style="width: 50px; height: auto; margin-right: 20px;">    
@@ -59,6 +59,8 @@ layout: default
             {%- elsif post.title contains "Google Street View" -%}
               <img src="{{ '/assets/google-icon.png' | relative_url }}" alt="FaaS logo" style="width: 100px; height: auto;">    
               <img src="{{ '/assets/android-icon.png' | relative_url }}" alt="FaaS logo" style="width: 70px; height: auto;">  
+              {%- elsif post.title contains "Amazon AWS IoT" -%}
+            <img src="{{ '/assets/amazon-iot-icon.png' | relative_url }}" alt="FaaS logo" style="width: 80px; height: auto;">    
               {%- else -%}
               <!-- Íconos por defecto si no coincide con ningún proyecto específico -->
               <img src="{{ '/assets/default-icon.png' | relative_url }}" alt="Default logo" style="width: 40px; height: auto;">
